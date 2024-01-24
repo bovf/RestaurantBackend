@@ -1,11 +1,13 @@
 package main
 
 import (
-	"github.com/gin-gonic/gin"
-	"go.mongodb.org/mongo-driver/mongo"
+	"golang-restaurant-management/database"
 	"golang-restaurant-management/middleware"
 	"golang-restaurant-management/routes"
 	"os"
+
+	"github.com/gin-gonic/gin"
+	"go.mongodb.org/mongo-driver/mongo"
 )
 
 func main() {
