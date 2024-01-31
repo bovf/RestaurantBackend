@@ -18,7 +18,7 @@ func CreateMenu() gin.HandlerFunc {
 	}
 }
 
-func UpdateMenu() gin.HandlerFunc {
+func UpdateMenu(Food) gin.HandlerFunc {
 	return func(c *gin.Context) {
 	}
 }
